@@ -76,7 +76,14 @@
 
                                                              ❗❗❗ 🧈🧈[BUTTON TYPES]🧈🧈 ❗❗❗
 
-    ## ✅V. subtitlu
+    ## ✅V. -How to navigate between files/pages
+             -How to navigate when the use click the Buttons
+
+> To navigate between files we need to pass the 'props' in our files to make effect
+
+[SRC/SCREEN/HomeScreen.js]/[]
+
+                                                                ❗❗❗ 🧭🧭[NAVIGATION]🧭🧭 ❗❗❗
 
     ## ✅VI. subtitlu
 

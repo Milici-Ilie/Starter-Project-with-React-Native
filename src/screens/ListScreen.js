@@ -1,8 +1,14 @@
 import React from "react";
-import { View, Text, StyleSheet, FlatList } from "react-native"; //📃📃[BUILDING LISTS]📃📃 note that the 'FlatList' is responsible for creating the List componen with names/text/etc
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  TouchableOpacity,
+} from "react-native"; //📃📃[BUILDING LISTS]📃📃 note that the 'FlatList' is responsible for creating the List componen with names/text/etc
 
 //📃📃[BUILDING LISTS]📃📃
-const ListScreen = () => {
+const ListScreen = (props) => {
   const friends = [
     { name: "Friend #1", Age: "20" },
     { name: "Friend #2", Age: "45" },
@@ -23,9 +29,14 @@ const ListScreen = () => {
       data={friends}
       renderItem={({ item }) => {
         return (
-          <Text style={styles.textStyle}>
-            {item.name} - Age {item.Age}
-          </Text>
+          <>
+            <Text style={styles.textStyle}>
+              {item.name} - Age {item.Age}
+            </Text>
+            <TouchableOpacity onPress={() => props.navigation.navigate("Home")}>
+              <Text>Go to Home Page</Text>
+            </TouchableOpacity>
+          </>
         ); //item is connected to our Array witch means we can call all the names from our 'friends' variable array/objects
       }}
     />

@@ -1,7 +1,7 @@
 import React from "react";
-import { Text, StyleSheet, View } from "react-native"; //the 'View' element will bring multiple elements togheter
+import { Text, StyleSheet, View, Button } from "react-native"; //the 'View' element will bring multiple elements togheter
 
-const ComponentsScreen = () => {
+const ComponentsScreen = (props) => {
   const name = "Ilie Milici"; // we created a variable that can be called anywhere in our code later in the right conditions
   const goodBye = <Text>Good Bye</Text>; // another exemple
 
@@ -10,6 +10,11 @@ const ComponentsScreen = () => {
       <Text style={styles.textStyle}>Getting started with React Native!</Text>
       <Text style={styles.textStyles}>My name is {name}</Text>
       {goodBye}
+
+      <Button
+        onPress={() => props.navigation.navigate("Home")} //🧭🧭[NAVIGATION]🧭🧭 this is how we create the connection/navigation between pages..... NOTE!!! that the 'navigation' and 'navigate' can be found in the 'console.log(props)' and 'console.log(props.navigation)'
+        title="Go to Home Page"
+      />
     </View>
   ); // here we use <View>...</View> element to wrap multiple elements
 };
