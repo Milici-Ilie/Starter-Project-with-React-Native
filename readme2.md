@@ -66,7 +66,15 @@
 
                                                              ❗❗❗ 📃📃[BUILDING LISTS]📃📃 ❗❗❗
 
-    ## ✅IV. subtitlu
+    ## ✅IV. -How to create Buttons
+              -Buttons Types
+              -How to change between pages using Buttons
+
+> There are 2 ways of creating a button that connect with another page/file: 1.Button, simple Button. 2. TouchableOpacity: Highly customizable component that can detect a press on just about any kind of element, not necesarly to be a Button, it can be an IMG, or a text, etc.
+
+[SRC/SCREEN/HomeScreen.js]/[]
+
+                                                             ❗❗❗ 🧈🧈[BUTTON TYPES]🧈🧈 ❗❗❗
 
     ## ✅V. subtitlu
 

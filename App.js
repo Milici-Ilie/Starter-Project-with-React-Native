@@ -12,7 +12,7 @@ const navigator = createStackNavigator(
   },
   //🍮🍮[CUSTOM COMPONENTS]🍮🍮 here we need to implement our new component/file. ex: Components: etc...
   {
-    initialRouteName: "List",
+    initialRouteName: "Home",
     defaultNavigationOptions: {
       title: "App",
     },

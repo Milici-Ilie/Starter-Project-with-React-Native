@@ -1,11 +1,14 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, View, Button } from "react-native"; //🧈🧈[BUTTON TYPES]🧈🧈 importing the 'View' and 'Button'
 
 const HomeScreen = () => {
   return (
-    <Text style={styles.text}>
-      My first attent to create a native mobile app.
-    </Text>
+    <View>
+      <Text style={styles.text}>
+        My first attent to create a native mobile app.
+      </Text>
+      <Button title="Go to Components Demo" />
+    </View> //🧈🧈[BUTTON TYPES]🧈🧈 Button
   );
 };
 
