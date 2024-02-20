@@ -56,7 +56,10 @@
     ## ✅III. -Building lists
                -How to build lists in React Native
                -How to add the unique 'key' to our objects/array
+               -How to create a Horizontal Scrooling
 
+> Horizontal scrooling: 'horizontal', check the 'ListScreen.js' file, the 'return(<Flatlist horizontal/>)'
+> How to disable the ScroolBar if you dont want to see it: 'showsHorizontalScrollIndicator={false}'
 > To create a list in React Native we need to use 'FlatList', check the 'ListScreen.js' file
 
 [SRC/SCREENS/ListScreen.js]/[App.js]
