@@ -18,7 +18,10 @@
 
     ## ✅I. -How to prepare React Native
              -What to install for React Native
+             -How to create variables and apply Styles Sheet on them
+             -How to create 'styles' variable, CSS styles
 
+> 0.Zero base, install on the mobile the app Expo Go from store, it's a symbol black-white the logo of app. Works for both IOS and Android
 > 1.First before starting the projects. Terminal: => 'npm install --legacy-peer-deps'
 > 2.Terminal: 'npm start' ==> This opens the React Native bundler, this will get our code ready to ran on a mobile device
 > s pentru a trece la build-ul de dezvoltare.
@@ -29,14 +32,26 @@
 > m pentru a comuta meniul Expo.
 > o pentru a deschide codul proiectului în editorul tău.
 >
-> If the application is not supporting the web and is not auttomatically start a web page in the browser after the previos Terminal: 'npm start', then install this ❗❗❗'npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config@^19.0.0'
-> Like wise for this demand: 'npx expo install @expo/webpack-config@^19.0.0'
+> 3. If the application is not supporting the web and is not auttomatically start a web page in the browser after the previos Terminal: 'npm start', then install this ❗❗❗'npx expo install react-native-web@~0.19.6 react-dom@18.2.0 @expo/webpack-config@^19.0.0'
+>    Like wise for this demand: 'npx expo install @expo/webpack-config@^19.0.0'
+>
+> ----REACT COMPONENT FILE------
+> Part 1: Import libraries we need to create components
+> Part 2: Create a component - a function that resturns some 'JSX'
+> Part 3: Create a stylesheet to style our component
+> Part 4: Export the component so we can use it elsewhere in our project
 
-[]/[]
+[SRC/SCREEN/ComponentsScreen.js]/[App.js]
 
-                                                        ❗❗❗ ⏭⏭[AUTH AUTHENTICATION]⏭⏭ ❗❗❗
+                                                        ❗❗❗ 👶👶[FIRST STEPS]👶👶 ❗❗❗
 
-    ## ✅II. subtitlu
+    ## ✅II. -Showing a custom component
+              -Importing a file/page
+              -How to connect pages
+
+[SRC/SCREEN/HomeScreen.js]/[]
+
+                                                    ❗❗❗ 🍮🍮[CUSTOM COMPONENTS]🍮🍮 ❗❗❗
 
     ## ✅III. subtitlu
 
