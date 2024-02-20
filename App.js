@@ -2,15 +2,17 @@ import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
 import HomeScreen from "./src/screens/HomeScreen";
 import ComponentsScreen from "./src/screens/ComponentsScreen"; //🍮🍮[CUSTOM COMPONENTS]🍮🍮 importing the file
+import ListScreen from "./src/screens/ListScreen"; //📃📃[BUILDING LISTS]📃📃
 
 const navigator = createStackNavigator(
   {
     Home: HomeScreen,
     Components: ComponentsScreen,
+    List: ListScreen,
   },
   //🍮🍮[CUSTOM COMPONENTS]🍮🍮 here we need to implement our new component/file. ex: Components: etc...
   {
-    initialRouteName: "Components",
+    initialRouteName: "List",
     defaultNavigationOptions: {
       title: "App",
     },

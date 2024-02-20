@@ -43,7 +43,7 @@
 
 [SRC/SCREEN/ComponentsScreen.js]/[App.js]
 
-                                                        ❗❗❗ 👶👶[FIRST STEPS]👶👶 ❗❗❗
+                                                                ❗❗❗ 👶👶[FIRST STEPS]👶👶 ❗❗❗
 
     ## ✅II. -Showing a custom component
               -Importing a file/page
@@ -51,9 +51,14 @@
 
 [SRC/SCREEN/HomeScreen.js]/[]
 
-                                                    ❗❗❗ 🍮🍮[CUSTOM COMPONENTS]🍮🍮 ❗❗❗
+                                                           ❗❗❗ 🍮🍮[CUSTOM COMPONENTS]🍮🍮 ❗❗❗
 
-    ## ✅III. subtitlu
+    ## ✅III. -Building lists
+               -How to build lists in React Native
+
+[SRC/SCREENS/ListScreen.js]/[App.js]
+
+                                                             ❗❗❗ 📃📃[BUILDING LISTS]📃📃 ❗❗❗
 
     ## ✅IV. subtitlu
 
