@@ -9,7 +9,7 @@ const ImageDetail = (props) => {
       <Image source={props.imageSource} />
       {/* 🗻🗻[DISPLAYING IMAGES]🗻🗻 summoning images with the path of the source ... NOTE❗❗❗ that the 'imageSourse' is coming from the (props) witch is connected with the parent file 'ImageScreen.js'*/}
       <Text>{props.title}</Text>
-      <Text>{props.imageScore}</Text>
+      <Text>Image Score - {props.imageScore}</Text>
     </View>
   );
 };
