@@ -105,10 +105,11 @@
     ## ✅VIII. -State in Components
                 -How to create a counter
                 -How to use State, rerender state data
+                -How to add random color when pressing a button/ rerender function
 
 > There are 2 types of systems: 1. Props (System to pass data from a parent component to a child component). 2. State (System to track a piece of data that will change over time. If that data changes, our app will 'rerender')
 
-[SRC/SCREENS/CounterScreen.js]/[App.js]/[SRC/SCREENS/HomeScreen.js]
+[SRC/SCREENS/CounterScreen.js]/[App.js]/[SRC/SCREENS/HomeScreen.js]/[SRC/SCREENS/ColorScreen.js]
 
                                                                 ❗❗❗ 🗽🗽[COUNTER-PROPS & STATE]🗽🗽 ❗❗❗
 
