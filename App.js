@@ -5,6 +5,7 @@ import ComponentsScreen from "./src/screens/ComponentsScreen"; //🍮🍮[CUSTOM
 import ListScreen from "./src/screens/ListScreen"; //📃📃[BUILDING LISTS]📃📃
 import ImageScreen from "./src/screens/ImageScreen"; //🌠🌠[DIFFERENT COMPONENTS]🌠🌠
 import CounterScreen from "./src/screens/CounterScreen"; //🗽🗽[COUNTER-PROPS & STATE]🗽🗽
+import ColorScreen from "./src/screens/ColorScreen"; //🗽🗽[COUNTER-PROPS & STATE]🗽🗽
 
 const navigator = createStackNavigator(
   {
@@ -13,6 +14,7 @@ const navigator = createStackNavigator(
     List: ListScreen,
     Image: ImageScreen,
     Counter: CounterScreen,
+    Color: ColorScreen,
   },
   //🍮🍮[CUSTOM COMPONENTS]🍮🍮 here we need to implement our new component/file. ex: Components: etc...
   {
