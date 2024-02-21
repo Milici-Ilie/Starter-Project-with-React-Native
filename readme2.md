@@ -78,16 +78,29 @@
 
     ## ✅V. -How to navigate between files/pages
              -How to navigate when the use click the Buttons
+             -Components reuse with Props
 
 > To navigate between files we need to pass the 'props' in our files to make effect
 
-[SRC/SCREEN/HomeScreen.js]/[]
+[SRC/SCREEN/HomeScreen.js]/[and.all.the.connection.files]
 
                                                                 ❗❗❗ 🧭🧭[NAVIGATION]🧭🧭 ❗❗❗
 
-    ## ✅VI. subtitlu
+    ## ✅VI. -How to build different components
+              -How to add IMG's
+              -Parent-Child Relationships
+              -How to pass 'props' between components/duplicated components
 
-    ## ✅VII. subtitlu
+[SRC/COMPONENTS/ImageDetail.js]/[SRC/SCREENS/ImageScreen.js]
+
+                                                                ❗❗❗ 🌠🌠[DIFFERENT COMPONENTS]🌠🌠 ❗❗❗
+
+    ## ✅VII. -How to display Images
+               -Displaying IMG's
+
+[SRC/COMPONENTS/ImageDetail.js]/[SRC/SCREENS/ImageScreen.js]
+
+                                                                ❗❗❗ 🗻🗻[DISPLAYING IMAGES]🗻🗻 ❗❗❗
 
     ## ✅VIII. subtitlu
 
