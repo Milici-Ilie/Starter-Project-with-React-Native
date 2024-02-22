@@ -113,7 +113,17 @@
 
                                                                 ❗❗❗ 🗽🗽[COUNTER-PROPS & STATE]🗽🗽 ❗❗❗
 
-    ## ✅IX. subtitlu
+    ## ✅IX. -How to make multiple changes/ rerenders/ 3 pieces of state 'useState'
+              -How to change a content conected with multiple choices
+              -How to connect more actions to a single result
+              -How to create a reusable State Variable and passing as a 'props' from the parent file to the children files
+              -Passing Callbacks to Children
+
+> In this small App we want to create 6 Buttons, 2 Buttons for each color (red, green, blue), 1 Button for 'More Red' & 'Less Red', etc for green and blue. When the Buttons are pressed to square/content from bellow will change depending on our actions made on those Buttons
+
+[SRC/SCREENS/SquareScreen.js]/[SRC/COMPONENTS/ColorCounter.js]
+
+                                                                ❗❗❗ 🚼🚼[MULTIPLE RERENDERS]🚼🚼 ❗❗❗
 
     ## ✅X. subtitlu
 
