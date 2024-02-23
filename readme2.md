@@ -133,7 +133,13 @@
 
                                                                 ❗❗❗ 🐢🐢[TERNARY OPERATION]🐢🐢 ❗❗❗
 
-    ## ✅XI. subtitlu
+    ## ✅XI. -Implementing REDUCER
+
+> NOTE!!! every time when we need some dynamic changes we use or 'useState' or 'Reducer', on or another to achieve our goal
+
+[SRC/SCREEN/SquareScreen2.js]/[]
+
+                                                                       ❗❗❗ 🏮🏮[REDUCER]🏮🏮 ❗❗❗
 
     ## ✅XII. subtitlu
 

@@ -1,26 +1,26 @@
-import React, { useState } from "react";
+import React, { useReducer } from "react";//🏮🏮[REDUCER]🏮🏮 importing 'useReducer'
 import { View, Text, StyleSheet, Button } from "react-native";
 import ColorCounter from "../components/ColorCounter";
 
-//🚼🚼[MULTIPLE RERENDERS]🚼🚼 now we are reuse the 'ColorCounter.js' file and make some changes with the 'props'
 const SquareScreen = (props) => {
+  
   return (
     <View>
       <ColorCounter
-        onIncrease={() => setColor("red", COLOR_INCREMENT)}
+        onIncrease={() => >}
         //🐢🐢[TERNARY OPERATION]🐢🐢here we are passing in the function the first argument as 'red', because if the 'color' from our function is === 'red', from the  <ColorCounter/> than will apply the function condition to that buttons and not to another color
-        onDecrease={() => setColor("red", -1 * COLOR_INCREMENT)}
-        //🐢🐢[TERNARY OPERATION]🐢🐢 'COLOR_INCREMENT' is a positiv value '15', but we need it to be negative in our case when we press the button, so we need to drecrease it with '-1'
+        onDecrease={() => >}
+        
         color="Red"
       />
       <ColorCounter
-        onIncrease={() => setColor("blue", COLOR_INCREMENT)}
-        onDecrease={() => setColor("blue", -1 * COLOR_INCREMENT)}
+        onIncrease={() => >}
+        onDecrease={() => >}
         color="Blue"
       />
       <ColorCounter
-        onIncrease={() => setColor("green", COLOR_INCREMENT)}
-        onDecrease={() => setColor("green", -1 * COLOR_INCREMENT)}
+        onIncrease={() => >}
+        onDecrease={() => >}
         color="Green"
       />
       {/* Now we must sent also the props 'onIncrease and onDecrease' */}
@@ -30,8 +30,7 @@ const SquareScreen = (props) => {
           height: 150,
           width: 150,
           backgroundColor: `rgb(${red}, ${green}, ${blue})`,
-        }} //🚼🚼[MULTIPLE RERENDERS]🚼🚼 creating the function for changing multiple actions when pressing the buttons
-      />
+        }} />
       <Text></Text>
       <Button
         onPress={() => props.navigation.navigate("Home")}
