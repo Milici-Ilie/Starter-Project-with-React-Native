@@ -125,7 +125,13 @@
 
                                                                 ❗❗❗ 🚼🚼[MULTIPLE RERENDERS]🚼🚼 ❗❗❗
 
-    ## ✅X. subtitlu
+    ## ✅X. -How to create a condition for not going above a limit. For ex: not bellow 0 or above 255
+             -How to create TERNARY OPERATOR
+             How to use 'IF' 'ELSE' statement
+
+[SRC/SCREEN/SquareScreen.js]/[]
+
+                                                                ❗❗❗ 🐢🐢[TERNARY OPERATION]🐢🐢 ❗❗❗
 
     ## ✅XI. subtitlu
 
