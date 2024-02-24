@@ -136,12 +136,18 @@
     ## ✅XI. -Implementing REDUCER
 
 > NOTE!!! every time when we need some dynamic changes we use or 'useState' or 'Reducer', on or another to achieve our goal
+> EXERCISE with 'useReducer' at Lesson.61 'Exercise Solution'
 
-[SRC/SCREEN/SquareScreen2.js]/[]
+[SRC/SCREEN/SquareScreen2.js]/[SRC/SCREEN/CounterScreen]
 
                                                                        ❗❗❗ 🏮🏮[REDUCER]🏮🏮 ❗❗❗
 
-    ## ✅XII. subtitlu
+    ## ✅XII. -How to create an Input text where the User types his name or any string
+               -How to take values from the Input text and display it somewhere else
+
+[]/[]
+
+                                                                       ❗❗❗ 💉💉[INPUT TEXT]💉💉 ❗❗❗
 
     ## ✅XIII. subtitlu
 
