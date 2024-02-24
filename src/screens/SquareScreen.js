@@ -4,6 +4,7 @@ import ColorCounter from "../components/ColorCounter";
 
 //🚼🚼[MULTIPLE RERENDERS]🚼🚼 now we are reuse the 'ColorCounter.js' file and make some changes with the 'props'
 const SquareScreen = (props) => {
+  //the notes for 'IF and Else' statement are missing, also the 'ternary operator', i deleted them accidentaly ... check another lessons where you can see those implementations❗❗❗❗
   return (
     <View>
       <ColorCounter
