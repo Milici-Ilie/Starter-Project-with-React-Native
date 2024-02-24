@@ -144,12 +144,28 @@
 
     ## ✅XII. -How to create an Input text where the User types his name or any string
                -How to take values from the Input text and display it somewhere else
+               -How to acces the text from the Input Text
+               -How to cummunicate data from a CHILD to a PARENT
+               -Two important PROPS need it for InputText
+               -How to display a text or not depending on the situation, if the condition is TRUE or FALSE we can display or not some content
 
-[]/[]
+> The 2 important PROPS: === autoCapitalize="none" ... autoCorrect={false}
+
+[SRC/SCREENS/TextScreen.js]/[]
 
                                                                        ❗❗❗ 💉💉[INPUT TEXT]💉💉 ❗❗❗
 
-    ## ✅XIII. subtitlu
+    ## ✅XIII. -How to use Layout
+                -Layout Systems
+                -Box Object Model
+                -Flex Box
+                -Position
+
+> Layout Systems: Box Objext Model (The height/with of an element + the space around it. Use this to affect the positioning of a single element), Flex Box (How some number of sibling elements get laid out inside a parent. Use this to position multiple elements with a common parent), Position (How a single element gets laid our inside of a parent. Use this to override Box Object Model + Flex Box)
+
+[]/[]
+
+                                                                    ❗❗❗ 🔬🔬[LAYOUT SYSTEM]🔬🔬 ❗❗❗
 
     ## ✅XIV. subtitlu
 

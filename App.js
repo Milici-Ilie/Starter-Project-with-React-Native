@@ -7,6 +7,8 @@ import ImageScreen from "./src/screens/ImageScreen"; //🌠🌠[DIFFERENT COMPON
 import CounterScreen from "./src/screens/CounterScreen"; //🗽🗽[COUNTER-PROPS & STATE]🗽🗽
 import ColorScreen from "./src/screens/ColorScreen"; //🗽🗽[COUNTER-PROPS & STATE]🗽🗽
 import SquareScreen2 from "./src/screens/SquareScreen2"; //🚼🚼[MULTIPLE RERENDERS]🚼🚼
+import TextScreen from "./src/screens/TextScreen";
+import BoxScreen from "./src/screens/BoxScreen";
 
 const navigator = createStackNavigator(
   {
@@ -17,6 +19,8 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Color: ColorScreen,
     Square: SquareScreen2,
+    Text: TextScreen,
+    Box: BoxScreen,
   },
   //🍮🍮[CUSTOM COMPONENTS]🍮🍮 here we need to implement our new component/file. ex: Components: etc...
   {
