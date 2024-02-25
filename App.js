@@ -9,6 +9,7 @@ import ColorScreen from "./src/screens/ColorScreen"; //🗽🗽[COUNTER-PROPS & 
 import SquareScreen2 from "./src/screens/SquareScreen2"; //🚼🚼[MULTIPLE RERENDERS]🚼🚼
 import TextScreen from "./src/screens/TextScreen";
 import BoxScreen from "./src/screens/BoxScreen";
+import ExerciseFlex from "./src/screens/ExerciseFlex";
 
 const navigator = createStackNavigator(
   {
@@ -21,6 +22,7 @@ const navigator = createStackNavigator(
     Square: SquareScreen2,
     Text: TextScreen,
     Box: BoxScreen,
+    Exercise: ExerciseFlex,
   },
   //🍮🍮[CUSTOM COMPONENTS]🍮🍮 here we need to implement our new component/file. ex: Components: etc...
   {
